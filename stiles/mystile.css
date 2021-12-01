@@ -1,3 +1,35 @@
 .five-point {
     background-color: brown;
 }
+
+p {
+    color:green;
+}
+
+.holder a[href^="https://"]{
+    color: red;
+}
+
+.list :nth-child(4) a{
+    color: green;
+}
+
+#greycol {
+    color: gray;
+}
+
+div.text-box>:nth-child(1){
+    color: pink;
+}
+
+div.text-box>:nth-child(7){
+    color: green;
+}
+
+.text-box div p{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
